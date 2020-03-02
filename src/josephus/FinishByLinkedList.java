@@ -1,4 +1,4 @@
-package Josephus;
+package josephus;
 
 /**
  * @Date 2018-08-19
@@ -79,7 +79,8 @@ public class FinishByLinkedList {
                 Child leaveChild = temp.nextChild;
                 System.out.println("当前退出的小孩编号为:" + leaveChild.no);
                 temp.nextChild = leaveChild.nextChild;
-                if (leaveChild.no == firstChild.no) {//如果要退出的小孩是第一个小孩,则将第一个小孩重置为退出小孩的下一个小孩
+                if (leaveChild.no == firstChild.no) {
+                    //如果要退出的小孩是第一个小孩,则将第一个小孩重置为退出小孩的下一个小孩
                     this.firstChild = leaveChild.nextChild;
                 }
                 temp = temp.nextChild;

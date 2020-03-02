@@ -1,4 +1,4 @@
-package Josephus;
+package josephus;
 
 /**
  * @Date 2018-08-19

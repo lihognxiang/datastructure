@@ -1,4 +1,4 @@
-package Josephus;
+package josephus;
 
 /**
  约瑟夫问题：

@@ -1,4 +1,4 @@
-package Josephus;
+package josephus;
 
 import java.util.Objects;
 
